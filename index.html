@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cireng Mput - Renyah di Luar, Kenyal di Dalam</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Hubungkan ke File CSS Eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-orange-600">Cireng Mput</h1>
+            <div class="space-x-6 text-sm font-medium">
+                <a href="#menu" class="hover:text-orange-600 transition">Menu</a>
+                <a href="#tentang" class="hover:text-orange-600 transition">Tentang Kami</a>
+                <a href="#kontak" class="hover:text-orange-600 transition">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header class="bg-gradient-to-r from-orange-500 to-amber-500 text-white py-16 px-4 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-4xl font-extrabold mb-4">Cireng Mput - Sensasi Gurih & Renyah Terbaik!</h2>
+            <p class="text-lg mb-8 opacity-90">Dibuat dari bahan-bahan pilihan berkualitas tinggi dengan bumbu rahasia yang bikin ketagihan. Pesan sekarang langsung dari rumah!</p>
+            <a href="#menu" class="bg-white text-orange-600 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-slate-100 transition">Lihat Menu Cireng</a>
+        </div>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu" class="max-w-6xl mx-auto px-4 py-16">
+        <div class="text-center mb-12">
+            <h3 class="text-3xl font-bold text-slate-900">Varian Menu Cireng Mput</h3>
+            <p class="text-slate-600 mt-2">Pilih varian favorit Anda dan langsung pesan via WhatsApp</p>
+        </div>
+
+        <!-- Grid Menu (Akan diisi otomatis oleh JavaScript) -->
+        <div id="menu-container" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Data menu dirender via script.js -->
+        </div>
+    </section>
+
+    <!-- Tentang Kami -->
+    <section id="tentang" class="bg-white py-16 border-t border-slate-100">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h3 class="text-2xl font-bold mb-4">Tentang Cireng Mput</h3>
+            <p class="text-slate-600 leading-relaxed">Cireng Mput berawal dari usaha offline yang menyajikan cireng berkualitas tinggi dengan tekstur renyah di luar dan lembut di dalam. Kini kami hadir secara online agar para pelanggan setia maupun penikmat baru bisa memesan dengan lebih praktis dan cepat.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak" class="bg-slate-900 text-white py-8 text-center text-sm">
+        <p>&copy; 2026 Cireng Mput. All rights reserved.</p>
+    </footer>
+
+    <!-- Hubungkan ke File JavaScript Eksternal -->
+    <script src="script.js"></script>
+</body>
+</html>

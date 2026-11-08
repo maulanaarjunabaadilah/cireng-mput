@@ -1,0 +1,14 @@
+/* Pengaturan dasar scroll halus */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Efek transisi pada card menu */
+.menu-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
